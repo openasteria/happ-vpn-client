@@ -9,6 +9,12 @@ import android.net.VpnService;
  */
 public class VpnTileService extends VpnService {
     @Override
+    public void onCreate() {
+        super.onCreate();
+        TunnelEngine.attachService(this);
+    }
+
+    @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         return START_STICKY;
     }
