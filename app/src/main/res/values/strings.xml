@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Happ VPN Client</string>
+
+    <!-- Экран 1: вставка ссылки -->
+    <string name="paste_title">Вставьте ссылку подписки</string>
+    <string name="paste_subtitle">Ссылка из панели управления (happ://, vless://, https://…)\nПротокол определится автоматически.</string>
+    <string name="paste_hint">https://panel.example.com/link/…\nhapp://…\nvless://…@host:443</string>
+    <string name="btn_paste">Вставить</string>
+    <string name="btn_check">Проверить и продолжить</string>
+    <string name="status_idle">Ожидание ссылки…</string>
+    <string name="status_checking">Проверяем соединение с панелью…</string>
+    <string name="status_ok">Сервер отвечает! Протокол: %1$s (%2$d узлов)</string>
+    <string name="status_net_ok">Сервер отвечает, но узлы не распознаны (%1$s). Продолжить?</string>
+    <string name="status_err_http">Сервер ответил, но данные не похожи на подписку (%1$s)</string>
+    <string name="status_err_conn">Не удалось достучаться до сервера. Пробуем разобрать ссылку локально…</string>
+    <string name="err_empty">Вставьте ссылку для подключения</string>
+    <string name="err_not_url">Это не похоже на ссылку подключения</string>
+    <string name="toast_copied">Ссылка вставлена</string>
+    <string name="btn_back">Назад</string>
+    <string name="btn_continue_anyway">Продолжить всё равно</string>
+
+    <!-- Экран 2: подключение -->
+    <string name="connect_button_label">ПОДКЛЮЧИТЬ</string>
+    <string name="disconnect_button_label">ОТКЛЮЧИТЬ</string>
+    <string name="connected_state">Защищено</string>
+    <string name="disconnected_state">Не подключено</string>
+    <string name="connecting_state">Подключение…</string>
+    <string name="protocol_detected">Определённый протокол</string>
+    <string name="nodes_count">Узлов: %1$d</string>
+    <string name="selected_node">Выбранный узел</string>
+    <string name="change_node">Сменить узел</string>
+    <string name="traffic_up">↑ %1$s</string>
+    <string name="traffic_down">↓ %1$s</string>
+    <string name="duration">Время: %1$s</string>
+    <string name="vpn_permission_denied">Разрешение VPN не выдано</string>
+    <string name="tunnel_started">Туннель запущен (%1$s)</string>
+    <string name="no_tun_support">Это устройство не даёт tun-интерфейс — включён режим маршрутизации Android VPN</string>
+</resources>

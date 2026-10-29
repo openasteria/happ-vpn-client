@@ -1,0 +1,16 @@
+.gradle/
+build/
+app/build/
+*.class
+*.jar
+*.aar
+*.ap_
+*.dex
+local.properties
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
